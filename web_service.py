@@ -7,7 +7,7 @@ import numpy as np
 from datetime import datetime
 
 # Загрузка базы фильмов
-movies_file = r"C:\Users\CubeUser\PycharmProjects\TehnostrelkaProd\movies_with_tags_and_comments.json"
+movies_file = r"movies.json"
 with open(movies_file, "r", encoding="utf-8") as file:
     movies = json.load(file)
 
